@@ -1,0 +1,29 @@
+.home__footer {
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 0;
+  }
+  
+  .home_footer_section div {
+    padding-bottom: 40px;
+  
+  }
+  
+  .home_footer_section i {
+    color: var(--colorCeleste);
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .home_footer_section h4 {
+    text-align: center;
+  }
+  
+  .home_footer_section p {
+    font-size: 12px;
+    color: var(--colorGrisClaro);
+  }
+  
+  .final-de-pie {
+    margin-bottom: 0px;
+  }

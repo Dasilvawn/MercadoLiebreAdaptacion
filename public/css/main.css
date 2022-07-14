@@ -1,0 +1,74 @@
+.home__main {
+    background-color: var(--colorGrisClaro);
+    border: solid 1px white;
+  }
+  
+  .home_main_section h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .home_mainsection_product {
+    border: solid 1px white;
+    background-color: white;
+    margin: 10px;
+  }
+  
+  .home_mainsection_product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .home_mainsectionproduct_descripcion {
+    border-top: solid 1px var(--colorGrisClaro);
+    padding: 15px;
+    line-height: 25px;
+  }
+  
+  .home_mainsectionproduct_descripcion button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 2px var(--colorVerde);
+    background-color: white;
+  }
+  
+  .home_mainsectionproduct_descripcion i {
+    font-size: 15px;
+    color: var(--colorVerde);
+  }
+  
+  .home_mainsectionproduct_descripcion .porcentaje {
+    color: var(--colorVerde);
+  }
+  
+  .home_mainsectionproduct_descripcion h4 {
+    display: none;
+  }
+  
+  .home_mainsectionproduct_descripcion p,
+  h4 {
+    font-size: 16px;
+  }
+
+  @media (min-width:768px) {
+
+    .home_mainsection_product {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+  
+    .home_mainsectionproduct_descripcion h4 {
+        display: inline-block;
+    }
+  }  
+
+  @media (min-width:1220px){
+
+    .home_mainsection_product {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+  
+    .home_mainsectionproduct_descripcion h4 {
+        display: inline-block;
+    }  
+}
