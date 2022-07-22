@@ -1,0 +1,17 @@
+.register_main{
+    width: 50%;
+    font-size: medium;
+    padding: 5%;
+    
+}
+
+.register_main h1{
+    margin-left: 70%;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.register_main_nomyap{
+    text-align: center;
+    
+}
