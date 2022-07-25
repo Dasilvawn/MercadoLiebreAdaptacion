@@ -7,22 +7,38 @@
     <link rel="stylesheet" href="/css/styles.css">
     <title>Login</title>
 </head>
- 
-
-
-
 
 <body class="login_body">
     <header>
 
+        <div class="login">
+            <a href="/"><img src="/img/logo-mercado-liebre.svg" alt="logo" /></a>
+          </div>
+        
     </header>
-    
-    <form action="/registro" method="post">
-        <input type="text" name="Usuario">
-        <input type="password" name="Contraseña">
-         <input type="enviar" name="Enviar">
-    </form>
 
+    <main class="login_main">
+   
+    <form class="login_main_formulario"
+     action="/registro" method="post">
+
+    <div class="login_main_nomdeusuario">    
+        <label for="">Nombre de usuario</label>
+        <input type="text" name="Usuario">
+    </div> 
+
+    <div class="login_main_constraseña">
+        <label for="">Contraseña</label>
+        <input type="password" name="constraseña" id="contraseña">
+    </div>
+
+    <div class="login_main_boton">
+        <button>
+            enviar
+        </button>
+    </div>            
+    </form>
+</main>
 
 <footer>
 

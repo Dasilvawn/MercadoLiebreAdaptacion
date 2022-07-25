@@ -15,107 +15,128 @@
 
 <body class="register_body">
     <header> 
+    
+      <div class="login">
+         <a href="/"><img src="/img/logo-mercado-liebre.svg" alt="logo" /></a>
+       </div>
+
     </header>
 
     <main>
        
-        <section class="register_main">   
+        <section class="register_main">  
+
              <h1>Registrate</h1>
              
             
-             <form action="register" name="register">
-             <div class="register_main_nomyap">
+             <form class="form_main"
+             action="register" method="post">
+               
+             <div class="register_main">
                 <label for="nombreyapelido">Nombre y Apellido</label>
                 <input type="text" name="nombreyapellido" id="nombreyapellido">
              </div>
 
-             <div class="register_main_nomusuario">
+             <div class="register_main">
                 <label for="nombredeusuario">Nombre de Usuaio</label>
                 <input type="text" name="nombredeusuario" id="nombredeusuario">
              </div>
 
-             <div class="register_main_email">
+             <div class="register_main">
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email">
              </div>
-
-             <h4>Fecha de nacimiento</h4>
-
-             <div class="register_main_fecha">    
-              <label for="fecha"></label>
+             
+            
+             <div class="register_main">    
+              <label for="fecha">Fecha de Nacimiento</label>
              <input type="date" name="fecha"
              id="fecha">
             </div>
+         
 
-            <div class="register_main_domicilio">
-                <label for="domicilio">Domicilio</label>
+            <div class="register_main">
+                <label  for="domicilio">Domicilio</label>
                 <input type="text" name="domicilio" id="domicilio">
              </div>
                
-            <div class="register_main_perfil">  
-             <h4>Perfil de usuario</h4>
+
+       <section class="register_main_perfilusuario">  
+
+            <div class="register_main">  
+             <h2>Perfil de usuario</h2>
             </div>
 
-             <div class="register_main_comprador">
+             <div class="register_main">
                 <label for="">comprador</label>
                 <input type="radio" name="comprador" id="comprador">
              </div>
 
-             <div class="register_main_vendedor">
+             <div class="register_main">
                 <label for="">vendedor</label>
                 <input type="radio" name="vendedor" id="vendedor">
              </div>
+       </section>
               
-             <div class="register_main_intereses">  
-             <h4>Intereses</h4>
+             <div class="register_main">  
+             <h2>Intereses</h2>
             </div>
 
-             <div class="register_main_electro">
+       <section class="register_main_intereseslista"> 
+
+             <div class="register_main">
                 <label for="">Electro</label>
                 <input type="checkbox" name="electro" id="electro">
              </div>
 
-             <div class="register_main_moda">
+             <div class="register_main">
                 <label for="">Moda</label>
                 <input type="checkbox" name="moda" id="moda">
              </div>
 
-             <div class="register_main_hogar">
+             <div class="register_main">
                 <label for="">Hogar</label>
                 <input type="checkbox" name="hogar" id="hogar">
              </div>
 
-             <div class="register_main_jugueteria">
+             <div class="register_main">
                 <label for="">
                     Juguetería
                 </label>
                 <input type="checkbox" name="jugueteria" id="jugueteria">
              </div>
 
-             <div class="register_main_vidasana">
+             <div class="register_main">
                 <label for="">Vida sana</label>
                 <input type="checkbox" name="vida sana" id="vida sana">
              </div>
 
-             foto de usuario
+       </section>
 
-             <div class="register_main_contra">
+             <div class="register_main">
+               <label for="">Subir foto</label>
+               <input type="file" name="foto" id="foto">
+             </div>
+
+             <div class="register_main">
                 <label for="">Contraseña</label>
                 <input type="password" name="password" id="password">
              </div>
 
-             <div class="register_main_confirmacontra">
+             <div class="register_main">
                 <label for="">Confirmar contraseña</label>
-                <input type="password2" name="password2" id="password2">
+                <input type="password" name="password2" id="password2">
              </div>
 
-             <div class="register_main_pagppal">
-                <button>
-                    Pagina principal
-                </button>
+             <div class="register_main">
+               <button>   
+               <label for="">pagina principal</label>
+               <input type="submit" name="pagprincipal" id="pagprincipal">
+            </button>
              </div>
+          
 
-             <div class="register_main_borrar">
+             <div class="register_main">
                 <button>
                     Borrar los datos del formulario
                 </button>

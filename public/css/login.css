@@ -1,3 +1,36 @@
 .login_body{
-    background-color: blue;
+    background-color: var(--colorAmarillo);
+}
+
+.login_main{
+    /* background-color: var(--colorAmarillo); */
+    color: #000;
+    width: 100%;
+    line-height: 60px;
+    padding: 21%;
+    font-size: x-large;
+}
+
+.login_main_boton button{  
+     background-color: var(--colorAmarillo); 
+    color: #000;
+    border: none;
+    font-size: x-large;
+}
+
+.login{
+    max-width: 30%;
+}
+
+@media (min-width: 1024px){
+
+    .login_main_formulario{
+        border: 1px solid black;
+        background-color: black 1px solid;
+        margin: -145px 0;
+        padding: 20px;
+        margin-top: -210px;
+        margin-left: 70px;
+        font-size: xx-large;
+}
 }
