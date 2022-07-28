@@ -11,11 +11,27 @@
     font-size: x-large;
 }
 
+.login_main_nomdeusuario input{
+      height: 30px;
+}
+
+.login_main_constraseña input{
+    height: 30px;
+}
+
 .login_main_boton button{  
-     background-color: var(--colorAmarillo); 
+    background-color: var(--colorAmarillo); 
     color: #000;
     border: none;
-    font-size: x-large;
+    font-size: 30px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.login_main_boton button:hover{
+    background-color: #2d45a6;
+    
 }
 
 .login{

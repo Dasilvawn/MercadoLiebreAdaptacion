@@ -13,9 +13,29 @@
     margin: 0;
     margin: auto;
   }
+     
+  .home_main_section {
+         width: 90%;
+         margin: 0 auto;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         align-content: flex-start;
+    }
+    
+  .home_main_H3 {
+    font-size: medium;
+    text-align: center;
+  }
+  
+  .home_mainsection_product {
+    border: solid 1px white; 
+    background-color: white;
+    margin-bottom: 10px;
+    width: 100%;
+  }
 
- .home_mainsection_product i{
-    /* display: block; */
+  .home_main_carrito{
     font-size: 16px;
     padding: 5px;
     width: 30px;
@@ -24,27 +44,18 @@
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
-    right: 20px;
+    right: 15px;
     top: -15px;
-    }
-
-    .home_mainsectionproduct_descripcion{  border-top: solid 1px var(--colorGrisClaro);
-      padding: 15px;
-      line-height: 25px;
-      position: relative;
-    }
-
+    transition: all 2s;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     
-  .home_main_sectionh3 {
-    font-size: medium;
-    text-align: center;
-  }
-  
-  .home_mainsection_product {
-    border: solid 1px white;
-    background-color: white;
-    margin: 10px;
-  }
+    }
+    .home_main_carrito:hover{
+      transform: rotate(360deg);
+
+    } 
 
   .home_mainsection_product p{
     display: inline-block;
@@ -56,8 +67,13 @@
     width: 100%;
     height: auto;
   }
-
  
+  .home_mainsectionproduct_descripcion{  border-top: solid 1px var(--colorGrisClaro);
+    padding: 15px;
+    line-height: 25px;
+    position: relative;
+  }
+
   .home_mainsectionproduct_descripcion i {
     font-size: 15px;
     color: var(--colorVerde);
@@ -66,15 +82,35 @@
   .home_mainsectionproduct_descripcion .porcentaje {
     color: var(--colorVerde);
   }
-  
-  .home_mainsectionproduct_descripcion h4 {
-    display: none;
-  }
-  
+
   .home_mainsectionproduct_descripcion p,
-  h4 {
+   h4 {
     font-size: 16px;
   }
+
+  /* transition y animation */
+  .home_mainsection_product{
+    box-shadow: none;
+    cursor: pointer;
+  }
+
+  .home_mainsection_product:hover{
+    opacity: 0.8;
+    box-shadow: 4px 4px rgb(186, 185, 185);
+  }
+
+
+.home_mainsectionproduct_descripcion h4{
+    transition: all 0.4s;
+    opacity: 0;
+    font-size: medium;
+      
+}
+
+.home_mainsection_product:hover .home_mainsectionproduct_descripcion h4{
+       opacity: 1;
+}
+
 
   @media (min-width:768px) {
 
@@ -110,7 +146,6 @@
       display: inline-block;
       margin-right: 40px;
       justify-content: space-between;
-      font-size: 93%;
       display: inline-block;
       
     }
@@ -118,4 +153,6 @@
         display: inline-block;
         font-size: 90%;
     }  
+ 
 }
+       
